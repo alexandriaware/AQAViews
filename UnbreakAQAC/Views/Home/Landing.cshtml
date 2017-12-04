@@ -1,0 +1,133 @@
+﻿
+@{
+    Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Sergey Pozhilov (GetTemplate.com)">
+
+    <title>AQA Commute</title>
+
+    <link rel="shortcut icon" href="~/assets/images/gt_favicon.png">
+
+    <!-- Bootstrap itself -->
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Custom styles -->
+    <link href="~/css/magister.css" rel="stylesheet" />    
+
+    <!-- Fonts -->
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Wire+One' rel='stylesheet' type='text/css'>
+
+</head>
+
+<!-- use "theme-invert" class on bright backgrounds, also try "text-shadows" class -->
+<body class="text-shadows">
+
+    <nav class="mainmenu">
+        <div class="container">
+            <div class="dropdown">
+                <button type="button" class="navbar-toggle" data-toggle="dropdown"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                <!--<a data-toggle="dropdown" href="#">Dropdown trigger</a> -->
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                    <li><a href="#head" class="active">Hello</a></li>
+                    <li><a href="#team">The Team</a></li>
+                    <li><a href="#themes">Themes</a></li>
+                    <li><a href="#contact">Get in touch</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Main (Home) section -->
+    <section class="section" id="head">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-lg-10 col-md-offset-1 col-lg-offset-1 text-center landingBox">
+
+                    <!-- Site Title, your name, HELLO msg, etc. -->
+                    <h1 class="title">AQA Commute</h1>
+                    <h2 class="subtitle">Your Personal Air Quality Analyst</h2>
+
+                    <!-- Short introductory (optional) -->
+                    <h3 class="tagline">
+                        We track your commute's air quality impact so the hard work is done for you.<br />
+                        Your Air Quality Analyst takes your awareness that the environment is in trouble<br />
+                        and helps you take action to minimize your affect.
+                    </h3>
+
+                    <!-- Nice place to describe your site in a sentence or two -->
+                    <p><a href="/download/" class="btn btn-default btn-lg" id="btn1">Login or Register</a><a href="/download/" class="btn btn-default btn-lg" id="btn2">Continue as Guest</a></p>
+
+                </div> <!-- /col -->
+            </div> <!-- /row -->
+        </div>
+    </section>
+
+    <!-- Second (Team) section -->
+    <section class="section" id="team">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-offset-2 col-xs-6 col-md-4 text-center landingBox">
+                    <img style="border-radius:50%;width:40%;height:40%" src="~/assets/images/Kevin.jpg" />
+                    <h3>Kevin Gilfether</h3>
+                    <p>Lorem Ipsum</p>
+                </div>
+                <div class="col-xs-6 col-md-4 text-center landingBox">
+                    <img style="border-radius:50%;width:40%;height:400%" src="~/assets/images/Alexandria Ware (3).jpg" />
+                    <h3>Alexandria Ware</h3>
+                    <p>Lorem Ipsum</p>
+                </div> <!-- /col -->
+            </div> <!-- /row -->
+
+            <div class="row">
+                <div class="col-md-offset-2 col-xs-6 col-md-4 text-center landingBox">
+                    <img style="border-radius:50%;width:40%;height:40%" src="~/assets/images/Roy.jpg" />
+                    <h3>Roy Ernst</h3>
+                    <p>Lorem Ipsum</p>
+                </div>
+                <div class="col-xs-6 col-md-4 text-center landingBox">
+                    <img style="border-radius:50%;width:40%;height:40%" src="~/assets/images/Brian.jpg" />
+                    <h3>Bryan Dyko</h3>
+                    <p>Lorem Ipsum</p>
+                </div> <!-- /col -->
+            </div> <!-- /row -->
+
+            <div class="row">
+                <div class="col-md-offset-2 col-xs-6 col-md-4 text-center">
+                    <img style="border-radius:50%;width:40%;height:40%" src="~/assets/images/Cheria.jpg" />
+                    <h3>Cheria White</h3>
+                    <p>Lorem Ipsum</p>
+                </div>
+                <div class="col-xs-6 col-md-4 text-center">
+                    <img style="border-radius:50%;width:40%;height:40%" src="~/assets/images/Shane.jpg" />
+                    <h3>Shane Moodie</h3>
+                    <p>Lorem Ipsum</p>
+                </div> <!-- /col -->
+            </div> <!-- /row -->
+        </div>
+    </section>
+
+    <!-- Third (Works) section -->
+    <section class="section" id="themes"></section>
+
+    <!-- Fourth (Contact) section -->
+    <section class="section" id="contact"></section>
+
+
+    <!-- Load js libs only when the page is loaded. -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <script src="~/js/modernizr.custom.72241.js"></script>
+    <!-- Custom template scripts -->
+    <script src="~/js/magister.js"></script>
+</body>
+</html>
